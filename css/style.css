@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+/*共通部分
+-----------------------------------*/
+html {
+    font-size: 100%;
+}
+body {
+   text-align: center;
+}
+a {
+    text-decoration: none; /*リンクのアンダーライン*/
+    color: #0bd;
+}
+
+img {
+    width: 100%;
+}
+
+
+.wrapper {
+	width: 1200px;
+	margin: auto;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+}
+main {
+	text-align: center;
+}
+
+
+.main-logo {
+	width: 7%;
+	height: auto;
+	margin-left: 10%;
+
+}
+
+
+.inner {
+	width: 100%;
+	margin: auto;
+	background-color: #0bd;
+	padding: 2%;
+	font-size: 1.5rem;
+	
+}
+
+
+
+.main-nav {
+	display: flex;
+	font-size:1.2rem;
+	text-transform: uppercase;
+
+}
+.main-nav li {
+	list-style: none;
+	padding: 30px;
+
+}
+.main-nav li > a:hover {
+	color: #09ff00;
+}
+.main-nav li:nth-child(5) {
+	margin-right: 50px;
+}
+
+.main-image {
+	width:60vw;
+	height:auto;
+	
+}
+
+
+
+
+/*news
+******************************************************************/
+.top-news {
+	display:flex;
+	justify-content: center;
+	margin-left: 10%;
+	padding: 10% 0;
+}
+.main-image2 {
+	width: 50%;
+	
+}
+.news li {
+	text-align: left;
+	font-size: 1.2rem;
+	list-style: none;
+	line-height: 2;
+}
+.news {
+	
+	padding: 5% 0 0 0;
+}
+#qa {
+	
+}
+.qa {
+	display:flex;
+	justify-content: center;
+	
+}
+dl {
+	width:100%;
+	text-align: left;
+	
+}
+
+.main-image3 {
+	width: 50%;
+	
+}
+.saitou {
+}
+
+.main-image4 {
+	width: 50%;
+	
+}
+.table10 {
+	display:flex;
+	justify-content: center;
+	margin-left: 7%;
+	padding: 10% 0;
+}
+th,td {
+	width: 200px;
+	
+	
+}
+
+.first {
+	padding: 2% 0 0 0;
+	line-height: 2;
+}
+.first1 {
+	margin-left: -5%;
+}
+.second {
+	padding:2% 0 0 0;
+}
+.second1 {
+	margin-left: -20%;
+}
+.third1 {
+	margin-left: -5%;
+}
+.third {
+	padding: 2% 0 0 0;
+}
+
+
+@media screen and (max-width:960px) {
+	.gazou {
+		width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------*/
+/*rogo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 15px 0 15px 30px;
+	width: 157px;
+}
+.rogo img{
+	width: 100%;
+	height: auto;
+}
+.fix_menu{
+	position: fixed;
+	width: 100%;
+	max-width: 1200px;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 999;
+	padding: 30px 0;
+}
+#navwrap{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 15px 30px 15px 0;
+}
+.header_menu{
+	display: flex;
+}
+ul,li{
+	list-style: none;
+	margin: 0;
+}
+.header_menu li a{
+	cursor: pointer;
+	padding: 0 10px;
+	text-decoration: none;
+	color: #333;
+}
+#switch{
+	display: none;
+}
+.main p{
+	padding: 500px 0;
+	text-align: center;
+}
+@media screen and (max-width:768px) {
+	#switch ~ label {
+		padding: 12px 12px;
+		width: 60px;
+		height: 60px;
+		background: #333;
+		position: fixed;
+		box-sizing: border-box;
+		top: 0;
+		right: 0;
+		z-index: 999;
+		cursor: pointer;
+	}
+	#switch ~ label span{
+		display: block;
+		width:22px;
+		height:2px;
+		top: 50%;
+		left: 0;
+		right: 0;
+		margin:auto;
+		background: #fff;
+		position: absolute;
+		-webkit-transition: 0.2s transform;
+		transition: 0.2s transform;
+	}
+	#switch ~ label span:before,
+	#switch ~ label span:after{
+		content: "";
+		display: block;
+		background: #fff;
+		position: absolute;
+		width:22px;
+		height:2px;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	#switch ~ label span:before{
+		top: -9px;
+	}
+	#switch ~ label span:after{
+		top: 9px;
+	}
+	#navwrap{
+		padding-top: 0;
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: calc(100% - 60px);
+		height: 100%;
+		background: rgba(0,0,0,0.8);
+		transition: all 0.4s;
+		padding: 60px;
+		box-sizing: border-box;
+	}
+	#switch:checked ~ #navwrap { 
+		display: block; 
+		top: 0;
+	}
+	.header_menu{
+		display: flex;
+		flex-direction: column;
+	}
+	.header_menu li{
+		margin: 0 auto 30px;
+	}
+	.header_menu li a{
+		color: #fff;
+	}
+	.scroll-prevent {
+		position: fixed;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+	}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------レスポンシブ------------------------*/
+@media (max-width: 600px) {
+  .main {
+      
+  }
+}
